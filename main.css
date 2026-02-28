@@ -1,0 +1,51 @@
+        body {
+            background-color: #000;
+            color: white;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container-main {
+            text-align: center;
+            width: 100%;
+            max-width: 380px;
+        }
+
+        .insta-logo {
+            font-family: 'Dancing Script', cursive;
+            font-size: 5rem;
+            margin-bottom: 30px;
+        }
+
+        .tagline {
+            font-size: 1.8rem;
+            font-weight: 600;
+            line-height: 1.1;
+            margin-bottom: 50px;
+        }
+
+    
+        .svg-text {
+            font-size: 28px; 
+            font-weight: 700;
+            font-family: sans-serif;
+        }
+
+        .btn-open {
+            background-color: #4359e9;
+            color: white;
+            border: none;
+            border-radius: 12px;
+            padding: 14px;
+            font-weight: 600;
+            width: 90%;
+            margin-bottom: 25px;
+        }
+
+        .footer-links a {
+            color: #4359e9;
+            text-decoration: none;
+            font-weight: 600;
+        }

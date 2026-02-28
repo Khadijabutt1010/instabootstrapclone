@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Layout with SVG Gradient</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net" rel="stylesheet">
+</head>
+<body>
+    <div class="container-main">
+        <h1 class="insta-logo">Instagram</h1>
+        <div class="tagline">
+            Share 
+            <svg width="250" height="40" style="vertical-align: middle;">
+                <defs>
+                    <linearGradient id="instaGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" style="stop-color:#f09433" />
+                        <stop offset="50%" style="stop-color:#dc2743" />
+                        <stop offset="100%" style="stop-color:#bc1888" />
+                    </linearGradient>
+                </defs>
+                <text x="0" y="30" fill="url(#instaGradient)" class="svg-text">everyday moments</text>
+            </svg>
+            <br>with your close friends.
+        </div>
+        <button class="btn btn-open">Open Instagram</button>
+        <div class="footer-links">
+            <a href="#">Log In</a>
+            <span class="text-secondary mx-1">or</span>
+            <a href="#">Sign Up</a>
+        </div>
+    </div>
+</body>
+</html>
